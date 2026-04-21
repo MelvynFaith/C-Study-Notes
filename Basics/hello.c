@@ -1,7 +1,12 @@
 #include <stdio.h>
 
 int main(){
-    printf("Hello world\n");
-    return 0;
-}
+    int target_port;
+    
+    target_port = 80;
 
+    printf("Target port: %d\n", target_port);
+    printf("Memory address: %p\n", &target_port);
+
+    return 0;
+} 
