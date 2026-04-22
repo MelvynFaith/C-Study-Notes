@@ -7,10 +7,10 @@ int main(){
     char *characters = "aaa"; // A list of characters, basically a string.
     // 'a' and "a" are different in C. '' are four a single character, while "" are for char *.
 
-    printf("My fav number is %d.\n", number);
-    printf("%.2f is a float.\n", floating_point); // .2f means 2 number after decimal point.
-    printf("%c is a single character.\n", character);
-    printf("%s is a list of chacters.\n", characters);
+    printf("My fav number is %d.\n", number); // %d for digits
+    printf("%.2f is a float.\n", floating_point); // %f for floating 
+    printf("%c is a single character.\n", character); // %c for char
+    printf("%s is a list of chacters.\n", characters); // %s for string
 }
 
 /*
